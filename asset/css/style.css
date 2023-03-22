@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body{
+    font-family: 'Alkatra', cursive;
+}
+
 p {
     opacity: .6;
     font-size: 12px;
 }
 
-.ck-content{
+.ck-content {
     height: 320px !important;
+}
+
+table img {
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+}
+
+section {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: bold;
 }
